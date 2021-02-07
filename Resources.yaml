@@ -13,7 +13,7 @@ resources:
     configuration:     
       sourceArtifactory:    artifactory
       pattern:              team1-gradle-dev-us/com/jfrog/frogsws/0.1.0-*/frogsws-0.1.0-*.jar
-      target:               gradle_results/*.jar
+#      target:               gradle_results/*.jar
       buildName:            gradle_build   # optional
       buildNumber:          ${run_number}
 
